@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head contains links to external resources and styling -->
+<head>
+    <title>Axiom - Advanced Building Mod</title>
+    <!-- Style contains info like heading prefrences or paragraph prefrences -->
+    <style>
+
+        /* .floating-frame defines to class in css */
+        .floating-frame {
+            background-color: #7091a1;
+            padding: 10px;
+            width: 1925px;
+            height: 1000px;
+            position: absolute;
+            top: 75px;
+            right: 50px;
+        }
+
+        .frame2 {
+            background-color: #8da4b0;
+            padding: 3px;
+            left: 625px;
+            position: absolute;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); /* rgba means red green blue and alpha which controls the transparencey */
+        }
+
+        .frame3 {
+            background-color: #8da4b0;
+            padding: 5px;
+            position: absolute;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+        }
+
+        .frame4 {
+            background-color: #8da4b0;
+            left: 10px;
+            top: 805px;
+            padding: 5px;
+            position: absolute;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+        }
+
+        .frame5 {
+            background-color: #8da4b0;
+            width: 430px;
+            height: 300px;
+            right: 10px;
+            padding: 5px;
+            position: absolute;
+            overflow: hidden;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+        }
+
+        .frame6 {
+            background-color: #8da4b0;
+            width: 430px;
+            height: 520px;
+            top: 350px;
+            right: 10px;
+            padding: 5px;
+            position: absolute;
+            overflow: hidden;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+        }
+
+        .frame7 {
+            background-color: #8da4b0;
+            width: 430px;
+            height: 75px;
+            top: 900px;
+            right: 10px;
+            padding: 2px;
+            position: absolute;
+            overflow: hidden;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+        }
+
+        /* Image frames */
+        .imgframe {
+            background-color: #8da4b0;
+            left: 10px;
+            top: 280px;
+            padding: 5px;
+            position: absolute;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+        }
+
+        .imgframe2 {
+            background-color: #8da4b0;
+            left: 880px;
+            padding: 5px;
+            position: absolute;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+        }
+
+        .imgframe3 {
+            background-color: #8da4b0;
+            top: 490px;
+            left: 880px;
+            padding: 5px;
+            position: absolute;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+        }
+
+        /* change the bg colour */
+        body {
+            background-color: #8fa6cc;
+        }
+
+        /* Import the font from folder */
+        @font-face {
+            font-family: 'Minecraft';
+            src: url('fonts/Mojang-Regular.ttf') format('truetype');
+        }
+
+        /* Change heading font to Minecraft font */
+        h1 {
+            text-align: center;
+            font-family: 'Minecraft', Arial;
+            font-size: 40px;
+            color: #ededed
+        }
+
+        /* styling h2 */
+        h2 {
+            font-family: 'Minecraft', Arial;
+            font-size: 30px;
+            color:#ededed
+        }
+
+        /* styling p */
+        p {
+            font-family: 'Minecraft', Arial;
+            font-size: 15px;
+            color: #ededed;
+            word-spacing: 1px;
+            line-height: 25px;
+        }
+
+        /* margin: 0 auto; centres the image horizontally */
+        img {
+            display: block;
+            margin: 0 auto;
+            height: auto;
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+    <h1>What is Axiom?</h1>
+    
+
+    <div class="floating-frame">
+        
+        <div class="frame2">
+            <h2>Capabilities</h2>
+            <p>
+                -Enhanced Flight
+                <br>
+                -Bulldozer
+                <br>
+                -Replace Mode
+                <br>
+                -Force Place
+                <br>
+                -No Updates
+                <br>
+                -Tinker
+            </p>
+        </div>
+
+        <div class="frame3">
+            <h2>Description</h2>
+            <p>
+                Axiom is an advanced building
+                 mod designed to give players
+                an<br> interactive experience while 
+                building. They do this through
+                the <br>use of an efficient user 
+                interface allowing you to access 
+                the <br>advanced building tools with 
+                ease. Compare this with World Edit, <br>
+                their main competitor, where there 
+                is no UI so you have to use 
+                <br>commands to utilise the tools.
+            </p>
+        </div>
+
+        <div class="imgframe">
+            <!-- If the image fails to load, the alt will display to show there is something in that position -->
+            <img src="Images/Axiom_UI.png" alt="Axiom UI" width="840">
+            <p style="text-align: center;">
+                Axiom Editor UI
+            </p>
+
+        </div>
+
+        <div class="frame4">
+
+            <h2>GUI Tools</h2>
+            <p>
+                Upon pressing right-shift you will be met
+                with a blender-like UI consisting of tools
+                such as<br> box select, magic select, weld and
+                many more. <br> <a href="https://axiomdocs.moulberry.com/editor/intro.html" target="_blank">Editor mode documentation</a>
+
+            </p>
+
+        </div>
+
+        <div class="imgframe2">
+            <img src="Images/Axiom_context_menu.png" alt="Axiom contect menu", width="570">
+            <p style="text-align: center;">Context menu</p>
+        </div>
+
+        <div class="frame5">
+            <h1>Context menu</h1>
+            <p>
+                The contenxt menu pops up if you hold left-alt. It consists of 8 
+                additional hotbar slots a gamemode switcher, capabilities, a flight speed controller,
+                a toolbox(with even more settings) and an option to create displayentities  without
+                commands. <br><br>
+                <a href="https://axiomdocs.moulberry.com/contextmenu/intro.html" target="_blank">Learn more about the context menu</a>
+            </p>
+        </div>
+
+        <div class="imgframe3">
+            <img src="Images/axiom_builder_tools.jpg" alt="Axiom builder tools", width="570">
+            <p style="text-align: center;">Builder tools</p>
+        </div>
+        
+        <div class="frame6">
+            <h1>Builder Tools</h1>
+            <p>
+                Axiom's Builder Tools, found in the tenth hotbar slot, 
+                provide powerful utilities for efficient building. 
+                These tools include Move, Clone, Erase, Stack,
+                Smear, Extrude, and symmetry. Each tool serves a unique
+                function,such as Move for mass block movement,
+                Clone for clonging structures, and stack for precise
+                area modifications. Unlike traditional building methods,
+                Axiom's Builder Tools streamline complex tasks, making
+                large-scale edits intuitive and efficient. With features
+                like real-time previews and adjustable parameters, Axiom
+                significantly enhances creativity and productivity in 
+                Minecraft building projects.
+                <br><br>
+                <a href="https://youtu.be/oqhipCwmoYY?si=s9JoYRxRr3MPBYfo" target="_blank">Video explaining builder tools</a>
+            </p>
+        </div>
+
+        <div class="frame7">
+            <p>
+                Axiom download link
+                <a href="https://modrinth.com/mod/axiom" target="_blank">https://modrinth.com/mod/axiom</a>
+            </p>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
